@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "harry-potter-ai": {
+      "tools": [
+        {
+          "name": "cast_spell_intent",
+          "description": "Casts an autonomous cryptographic spell with deterministic mana invariants",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "spell_name": {
+                "type": "string"
+              },
+              "target_endpoint": {
+                "type": "string"
+              },
+              "mana_allocated": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "spell_name",
+              "target_endpoint"
+            ]
+          }
+        },
+        {
+          "name": "verify_patronus_proof",
+          "description": "Verifies quantum-safe Patronus cryptographic receipt and anti-dementor shield",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "patronus_proof": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "patronus_proof"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
